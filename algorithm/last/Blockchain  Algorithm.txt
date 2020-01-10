@@ -1,0 +1,44 @@
+\title{AlgorithmTemplate}
+\documentclass[12pt]{article}
+\usepackage{fullpage}
+\usepackage{times}
+\usepackage{fancyhdr,graphicx,amsmath,amssymb}
+\usepackage[ruled,vlined]{algorithm2e}
+\include{pythonlisting}
+\begin{document} 
+\begin{algorithm}[H]
+\SetAlgoLined
+ \State $ plaintext \gets Alpha\:numeric\: password $\;
+ \State $ Block Number \gets From\: 1\: to\: n $\;
+ \While{cont.lower() == "y"}{
+  Statement\;
+  \eIf{1 \leq choice\:  and \: choice <= n}{
+   \State $ password \gets Strings $\;
+   \eIf{plaintext == password}{
+     Pass hacked block information to fog level\;
+     take 300 sec\;
+     \eIf{see hacked block == "yes"}{
+     Execute new created blocks\;
+   }{
+    break\;
+   }
+   }{
+    Execute Edge simple blocks\;
+   }
+    
+   }{
+   Invalid Input\;
+   \State Cont \gets yes\: or\: no \;
+   \eIf{Cont == "yes"}{
+   continue\;
+   }
+   {
+   break\;
+   }
+  }
+ }
+ \caption{Blockchain  Algorithm}
+\end{algorithm}
+
+
+\end{document}

@@ -1,0 +1,69 @@
+\title{AlgorithmTemplate}
+\documentclass[12pt]{article}
+\usepackage{fullpage}
+\usepackage{times}
+\usepackage{fancyhdr,graphicx,amsmath,amssymb}
+\usepackage[ruled,vlined]{algorithm2e}
+\include{pythonlisting}
+\begin{document} 
+\begin{algorithm}[H]
+\SetAlgoLined
+ \State $ plaintext \gets Alpha\:numeric\: password $\;
+ \State $ Block Number \gets From\: 1\: to\: n $\;
+ \While{cont.lower() == "y"}{
+  Statement\;
+  \eIf{1 \leq choice\:  and \: choice <= n}{
+   \State $ password \gets Strings $\;
+   \eIf{plaintext == password}{
+   Execute Blockchain blocks without Hacked blocks\;
+   \State See Hacked Blocks \gets yes \:or\: no\;\newline
+   \eIf{See Hacked Blocks == "yes"}{
+    \begin{lstlisting}
+    def block(run): \newline
+        if(block 1 == not hacked)\newline
+            continue\;
+        elseif(block 1 == not hacked)\newline
+            continue\;
+        elseif(block 2 == not hacked)\newline
+            continue\;
+        ........................................\newline 
+        elseif(block n == not hacked)\newline
+            continue\;
+        elseif(Invalid Input)\newline
+            break\;
+    end class
+    \end{lstlisting}
+   }{
+   Break\;
+   }
+   }{
+   \begin{lstlisting}
+    def class(delay) \newline
+        Count delay:\newline
+            delay for block 1:\newline
+                19.3630169\: sec\;
+            delay for block 2:\newline
+                19.3630169\: sec\;
+            ........................................\newline
+            delay for block n:\newline
+                n \: sec\;
+    end class }
+    \end{lstlisting}
+  }
+
+   }{
+   Invalid Input\;
+   \State Cont \gets yes\: or\: no \;
+   \eIf{Cont == "yes"}{
+   continue\;
+   }
+   {
+   break\;
+   }
+  }
+ }
+ \caption{Edge Not Hacked  Algorithm:}
+\end{algorithm}
+
+
+\end{document}

@@ -1,0 +1,49 @@
+\title{AlgorithmTemplate}
+\documentclass[12pt]{article}
+\usepackage{fullpage}
+\usepackage{times}
+\usepackage{fancyhdr,graphicx,amsmath,amssymb}
+\usepackage[ruled,vlined]{algorithm2e}
+\include{pythonlisting}
+\begin{document} 
+\begin{algorithm}[H]
+\SetAlgoLined
+\KwResult{Write here the result }
+ \State $ plaintext \gets Alpha numeric password $\;
+ \State $ Block Number \gets From 1 to 10 $\;
+ \While{cont.lower() == "y"}{
+  Statement\;
+  \eIf{0 < choice and choice <= 10}{
+   \State $ password \gets Strings $\;
+   \eIf{plaintext == password}{
+   Execute Blockchain blocks without Hacked blocks\;
+    \eIf{fog.hello_printer(plaintext,choice)}{
+   
+   \eIf{Def class(plaintext,choice)}{
+   
+   Execute The Hacked Block\;
+  
+   }
+   }{
+   Error!\;
+  }
+   }{
+   Simple blockchain blocks\;
+  }
+
+   }{
+   Invalid Input\;
+   \State Cont \gets y or n \;\newline
+   \eIf{Cont == "y"}{
+   continue\;
+   }
+   {
+   break\;
+   }
+  }
+ }
+ \caption{Not Hacked Process}
+\end{algorithm}
+
+
+\end{document}

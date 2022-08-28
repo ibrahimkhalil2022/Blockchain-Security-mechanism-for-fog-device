@@ -178,12 +178,12 @@ while cont.lower() == "y":
 
     elif choice == '2':
 
-       print("ibrahim")
+       print("Ibrahim")
 
 
 
     elif choice == '3':
-       print("khalil")
+       print("Khalil")
 
     else:
        print("Invalid input")
